@@ -2,8 +2,8 @@ import random
 
 def swap(Array, first_item_index, second_item_index):
     '''
-    Given an array and two indecies, it swaps the elments in the array at the
-    given indecies
+    Swaps the elments in the array at the
+    given indicies
     '''
     temp = Array[first_item_index]
     Array[first_item_index] = Array[second_item_index]
